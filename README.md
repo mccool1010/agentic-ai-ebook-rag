@@ -129,7 +129,7 @@ and the fully answered synthesis question scored 0.388.
   question scored 0.464 at the top while an unanswerable one scored 0.416, and chunks the synthesis
   answer needed scored as low as 0.347. Raising the threshold would have refused or starved legitimate
   questions, so on-topic questions the document cannot answer are refused by the generator and
-  grounding check instead. The off-topic question "What is the capital of France?" scored [your score]
+  grounding check instead. The off-topic question "What is the capital of France?" scored 
   and was refused at the gate.
 - **Multi-section questions can be under-retrieved.** Five 250-token chunks cannot cover two whole
   sections. The synthesis question in the evaluation retrieved only part of section 2.5, and the
